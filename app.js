@@ -7,7 +7,7 @@ conectarDB();
 
 const festivoRutas = require('./routes/festivosRoutes');
 // Cargar las rutas
-app.use('/festivos/verificar', festivoRutas);
+app.use('/api', festivoRutas);
 
 
 const port = 3030;
